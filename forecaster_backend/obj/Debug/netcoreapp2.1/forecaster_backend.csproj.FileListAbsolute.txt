@@ -1,0 +1,14 @@
+/Users/zeroliam/Documents/PROJECTS/AppsFactory task/forecaster_backend/bin/Debug/netcoreapp2.1/forecaster_backend.deps.json
+/Users/zeroliam/Documents/PROJECTS/AppsFactory task/forecaster_backend/bin/Debug/netcoreapp2.1/forecaster_backend.runtimeconfig.json
+/Users/zeroliam/Documents/PROJECTS/AppsFactory task/forecaster_backend/bin/Debug/netcoreapp2.1/forecaster_backend.runtimeconfig.dev.json
+/Users/zeroliam/Documents/PROJECTS/AppsFactory task/forecaster_backend/bin/Debug/netcoreapp2.1/forecaster_backend.dll
+/Users/zeroliam/Documents/PROJECTS/AppsFactory task/forecaster_backend/bin/Debug/netcoreapp2.1/forecaster_backend.pdb
+/Users/zeroliam/Documents/PROJECTS/AppsFactory task/forecaster_backend/obj/Debug/netcoreapp2.1/forecaster_backend.csprojAssemblyReference.cache
+/Users/zeroliam/Documents/PROJECTS/AppsFactory task/forecaster_backend/obj/Debug/netcoreapp2.1/forecaster_backend.csproj.CoreCompileInputs.cache
+/Users/zeroliam/Documents/PROJECTS/AppsFactory task/forecaster_backend/obj/Debug/netcoreapp2.1/forecaster_backend.RazorAssemblyInfo.cache
+/Users/zeroliam/Documents/PROJECTS/AppsFactory task/forecaster_backend/obj/Debug/netcoreapp2.1/forecaster_backend.RazorAssemblyInfo.cs
+/Users/zeroliam/Documents/PROJECTS/AppsFactory task/forecaster_backend/obj/Debug/netcoreapp2.1/forecaster_backend.AssemblyInfoInputs.cache
+/Users/zeroliam/Documents/PROJECTS/AppsFactory task/forecaster_backend/obj/Debug/netcoreapp2.1/forecaster_backend.AssemblyInfo.cs
+/Users/zeroliam/Documents/PROJECTS/AppsFactory task/forecaster_backend/obj/Debug/netcoreapp2.1/forecaster_backend.RazorTargetAssemblyInfo.cache
+/Users/zeroliam/Documents/PROJECTS/AppsFactory task/forecaster_backend/obj/Debug/netcoreapp2.1/forecaster_backend.dll
+/Users/zeroliam/Documents/PROJECTS/AppsFactory task/forecaster_backend/obj/Debug/netcoreapp2.1/forecaster_backend.pdb
