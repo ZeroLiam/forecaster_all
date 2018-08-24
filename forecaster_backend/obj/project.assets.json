@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/zeroliam/Documents/PROJECTS/AppsFactory task/forecaster_backend/forecaster_backend.csproj",
+      "projectUniqueName": "/Users/zeroliam/Documents/PROJECTS/AppsFactory task/forecaster_all/forecaster_backend/forecaster_backend.csproj",
       "projectName": "forecaster_backend",
-      "projectPath": "/Users/zeroliam/Documents/PROJECTS/AppsFactory task/forecaster_backend/forecaster_backend.csproj",
+      "projectPath": "/Users/zeroliam/Documents/PROJECTS/AppsFactory task/forecaster_all/forecaster_backend/forecaster_backend.csproj",
       "packagesPath": "/Users/zeroliam/.nuget/packages/",
-      "outputPath": "/Users/zeroliam/Documents/PROJECTS/AppsFactory task/forecaster_backend/obj/",
+      "outputPath": "/Users/zeroliam/Documents/PROJECTS/AppsFactory task/forecaster_all/forecaster_backend/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
