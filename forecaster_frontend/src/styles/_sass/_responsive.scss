@@ -1,0 +1,167 @@
+/**
+App     : Forecaster
+File    : src/_scss/_responsive.scss
+Purpose : SCSS variables
+Version : 1.0
+Author  : Liselot Ramirez
+Date    : 17.08.2018
+**/
+
+/*-------------------------------
+[GUIDE]
+01. IMPORTS
+02. PHONES
+03. TABLETS
+04. DESKTOPS
+-------------------------------*/
+
+/* 01. IMPORTS
+------------------------------*/
+@import '_variables.scss';
+
+/* 02. PHONES
+------------------------------*/
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 374px){
+      .card-component{
+          width: $col-11;
+
+          .p-degree{
+            left: 1rem;
+            font-size: 4rem;
+          }
+      }
+}
+
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 413px) {
+      .card-component{
+          width: $col-10;
+
+          .p-degree{
+            left: 1rem;
+            font-size: 4rem;
+          }
+      }
+}
+
+@media only screen 
+  and (min-width: 414px) 
+  and (max-width: 767px) {
+      .card-component{
+          width: $col-5 * 1.14;
+
+          .p-data{
+            font-size: 1rem;
+          }
+
+          .p-degree{
+            left: 0.4rem;
+            font-size: 3rem;
+            text-align: right;
+          }
+      }
+      .card-component:last-child{
+          width: $col-10* 1.15;
+          
+          .card-body{
+            justify-content: center;
+          }
+      }
+}
+
+/* 03. TABLETS
+------------------------------*/
+@media only screen 
+  and (min-width: 601px) 
+  and (max-width: 767px) {
+      .card-component{
+          width: $col-5;
+
+          .p-data{
+            font-size: 1rem;
+          }
+
+          .p-degree{
+            left: 0.4rem;
+            font-size: 4rem;
+            text-align: right;
+          }
+      }
+      .card-component:last-child{
+          width: $col-10;
+          
+          .card-body{
+            justify-content: center;
+          }
+      }
+}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 959px) {
+      .card-component{
+          width: $col-3 * 1.14;
+
+          .p-data{
+            font-size: 1rem;
+          }
+
+          .p-degree{
+            left: 0rem;
+            font-size: 5rem;
+            text-align: right;
+          }
+            .card-body{
+            justify-content: center;
+          }
+      }
+      .card-component:last-child, .card-component:nth-last-child(2){
+          width: $col-4* 1.3;
+          
+          .card-body{
+            justify-content: center;
+          }
+      }
+}
+
+@media only screen 
+  and (min-width: 960px) 
+  and (max-width: 1024px) {
+      .card-component{
+          width: $col-3;
+
+          .p-data{
+            font-size: 0.8rem;
+          }
+
+          .p-degree{
+            left: .4rem;
+            font-size: 3.5rem;
+            text-align: right;
+          }
+      }
+}
+
+/* 04. DESKTOPS
+------------------------------*/
+@media screen 
+  and (min-width: 1024px)  {
+      .card-component{
+          width: $col-2 * 1.15;
+
+          .p-data{
+            font-size: 0.8rem;
+          }
+
+          .p-degree{
+            left: .4rem;
+            font-size: 3.5rem;
+            text-align: right;
+          }
+      }
+}

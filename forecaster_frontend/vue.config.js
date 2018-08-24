@@ -1,0 +1,1 @@
+// For additional webpack configuration. This task was small and didn't needed one.

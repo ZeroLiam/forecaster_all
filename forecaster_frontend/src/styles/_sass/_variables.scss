@@ -1,0 +1,60 @@
+/**
+App     : Forecaster
+File    : src/_scss/_variables.scss
+Purpose : SCSS variables
+Version : 1.0
+Author  : Liselot Ramirez
+Date    : 17.08.2018
+**/
+
+/*-------------------------------
+[GUIDE]
+01. IMPORTS
+02. FONTS
+03. FILTER COLORS
+04. COLUMN WIDTHS
+-------------------------------*/
+
+/* 01. IMPORTS
+------------------------------*/
+// Import fonts
+    @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700');
+
+/* 02. FONTS
+------------------------------*/
+    $sans-serif: "Rubik", "Helvetica Neue", Roboto, "Segoe UI", sans-serif;
+    $serif: Menlo, Monaco, Courier, monospace, serif;
+    $base-font-family: $sans-serif;
+    $base-font-weight: 300;
+    $base-font-weight-bold: 700;
+    $base-font-color: #2c3e50;
+    $base-font-alt-color: #ffffff;
+
+    $base-font-size: 1rem;
+    $lead-font-size: 1.15em;
+    $blog-title-size: 2.5rem;
+    $post-title-size: 4.25rem;
+    $base-line-height: 1.6;
+
+/* 03. FILTER COLORS
+------------------------------*/
+    $filter-error: #e91e63;
+    $filter-date: #03A9F4;
+
+/* 04. COLUMN WIDTHS
+------------------------------*/
+
+    $col-1: 8.33%;
+    $col-2: 16.66%;
+    $col-3: 25%;
+    $col-4: 33.33%;
+    $col-5: 41.66%;
+    $col-6: 50%;
+    $col-7: 58.33%;
+    $col-8: 66.66%;
+    $col-9: 75%;
+    $col-10: 83.33%;
+    $col-11: 91.66%;
+    $col-12: 100%;
+
+    

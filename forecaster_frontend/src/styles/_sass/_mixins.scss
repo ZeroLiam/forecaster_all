@@ -1,0 +1,57 @@
+/**
+App     : Forecaster
+File    : src/_scss/_responsive.scss
+Purpose : SCSS variables
+Version : 1.0
+Author  : Liselot Ramirez
+Date    : 17.08.2018
+**/
+
+// Mixins
+//-------------------------------
+@mixin centered-block() {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+}
+
+@mixin group-border-label(){
+    border: 1px solid #ccc;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    border-right-style: none;
+}
+
+@mixin group-border-input(){
+    border: 1px solid #ced4da;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    // border-top: none;
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0rem;
+}
+
+@mixin group-border-search(){
+    border: 1px solid #ced4da;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    // border-top: none;
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+@mixin body-bg-img(){
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

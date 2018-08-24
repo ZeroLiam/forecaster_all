@@ -1,0 +1,189 @@
+/**
+App     : Forecaster
+File    : src/main-styles.scss
+Purpose : Collect all the styles
+          for the Forecaster app
+Version : 1.0
+Author  : Liselot Ramirez
+Date    : 17.08.2018
+**/
+
+/*-------------------------------
+[GUIDE]
+01. GLOBAL STYLES
+02. QUERY BAR
+03. CITY RESULTS
+04. WEATHER RESULTS
+05. ERROR HANDLING
+-------------------------------*/
+
+
+/* 01. GLOBAL
+------------------------------*/
+@charset "UTF-8";
+@import "_sass/_mixins.scss";
+@import "_sass/_variables.scss";
+@import "_sass/_base.scss";
+@import "_sass/_responsive.scss";
+
+  html{
+    background: url('../assets/bg.jpg') no-repeat center center fixed;
+    @include body-bg-img();
+    margin: 2% auto;
+  }
+
+// Container
+#app {
+  font-family: $base-font-family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: $base-font-color;
+  width: 95%;
+  margin: auto;
+}
+
+.home{
+    padding: 0px 10px;
+}
+
+/* 02. QUERY BAR
+----------------------*/
+#query_component {
+  background-color: #ffffffe8;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 90%;
+  margin: auto;
+
+  .query_label{
+    max-width: 20%;
+    display: flex;
+    align-items: center;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fdfdfd;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #909090;
+    @include group-border-label();
+  }
+
+  #cityquery{
+    // min-width: 60%;
+    display: block;
+    width: 80%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff0;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    @include group-border-input();
+
+    &::selection {
+      background-color: $filter-date;
+      color: white;
+    }
+  }
+
+  .search-btn{
+    cursor: pointer;
+    width: 20%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fdfdfd;
+    text-align: center;
+    background-color: $filter-date;
+    @include group-border-search();
+  }
+}
+
+
+/* 03. CITY RESULTS
+----------------------*/
+// Title results
+#city_title{
+  font-weight: $base-font-weight-bold;
+  color: $base-font-alt-color;
+  text-transform: uppercase;
+  font-size: 4rem;
+  text-align: left;
+}
+//Today's results
+#city_data{
+  font-weight: $base-font-weight-bold;
+  background-color: #ffffff;
+  font-size: 1.4rem;
+  text-align: left;
+  width:auto;
+  margin: 0rem auto;
+  padding: 1rem;
+
+}
+
+
+/* 04. WEATHER RESULTS
+----------------------*/
+  // Main container
+  .results-container{
+    width:auto;
+    margin: 2rem auto;
+    position: relative;
+    padding: 0.2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  //Card
+  .card-component{
+    margin: 2px 4px;
+    padding: 0;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    border-radius: 0.25rem;
+    overflow: hidden;
+
+    .card-body{
+      position: relative;  
+      display: flex;
+      flex-wrap: nowrap;
+      width: 100%;
+      padding: 4px;
+    }
+
+      .p-degree{
+        position: relative;
+      }
+
+      .p-data{
+        position: relative;
+        text-align: left;
+        padding: 0 0 0 6px;
+
+          .card-day{
+            text-transform: uppercase;
+            background-color: $filter-date;
+            color: $base-font-alt-color;
+            padding: 0 6px;
+            text-align: right;
+          }
+      }
+  }
+  
+
+/* 05. ERROR HANDLING
+----------------------*/
+.ajaxerror{
+  background-color: $filter-error;
+  color: $base-font-alt-color;
+  font-weight: $base-font-weight-bold;
+  width: auto;
+}
